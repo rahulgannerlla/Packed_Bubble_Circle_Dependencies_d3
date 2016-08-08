@@ -1,0 +1,125 @@
+
+{
+  "name": "databases",
+  "dependencies": [],
+  "children": [
+    {
+      "name": "parent1",
+      "children": [
+        {
+          "name": "a",
+          "size": 400,
+          "dependencies": [
+            {
+              "dep_name": "d",
+              "dep_level": "1"
+            },
+            {
+              "dep_name": "e",
+              "dep_level": "2"
+            }
+          ]
+        },
+        {
+          "name": "b",
+          "size": 1000,
+          "dependencies": [
+             {
+              "dep_name": "a",
+              "dep_level": "1"
+            },
+            {
+              "dep_name": "d",
+              "dep_level": "1"
+            }
+          ]
+        },
+        {
+          "name": "c",
+          "size": 1200,
+          "dependencies": [
+            {
+              "dep_name": "b",
+              "dep_level": "1"
+            },
+            {
+              "dep_name": "d",
+              "dep_level": "2"
+            },
+            {
+              "dep_name": "e",
+              "dep_level": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "parent2",
+      "children": [
+        {
+          "name": "d",
+          "size": 1000,
+          "dependencies": [
+            {
+              "dep_name": "a",
+              "dep_level": "1"
+            },
+            {
+              "dep_name": "b",
+              "dep_level": "2"
+            },
+            {
+              "dep_name": "c",
+              "dep_level": "1"
+            },
+            {
+              "dep_name": "e",
+              "dep_level": "1"
+            },
+            {
+              "dep_name": "f",
+              "dep_level": "1"
+            }
+          ]
+        },
+        {
+          "name": "e",
+          "size": 2000,
+          "dependencies": [
+            {
+              "dep_name": "a",
+              "dep_level": "2"
+            },
+            {
+              "dep_name": "b",
+              "dep_level": "2"
+            },
+            {
+              "dep_name": "c",
+              "dep_level": "1"
+            },
+            {
+              "dep_name": "d",
+              "dep_level": "2"
+            }
+          ]
+        },
+        {
+          "name": "f",
+          "size": 1000,
+          "dependencies": [
+            {
+              "dep_name": "e",
+              "dep_level": "1"
+            },
+            {
+              "dep_name": "d",
+              "dep_level": "2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
