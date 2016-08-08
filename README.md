@@ -6,4 +6,4 @@ This project is an extension of [Zoomable Circle Packing](http://bl.ocks.org/mbo
 * Weak dependency - Level 1 - Yellow Color
 * No Dependency - Level 0 - Green Color
 
-![Zoomable Circle Packing Extension](/images/Capture.png)
+![Zoomable Circle Packing Extension](/images/Capture.PNG)
